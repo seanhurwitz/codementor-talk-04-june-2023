@@ -1,1 +1,0 @@
-{"version":3,"file":"getConnection.d.ts","sourceRoot":"","sources":["../../../src/common/sequelize/getConnection.ts"],"names":[],"mappings":"AAKA,QAAA,MAAM,QAAQ,KAA6C,CAAC;AAgB5D,QAAA,MAAM,kBAAkB;;;CAQvB,CAAC;AAEF,OAAO,EAAE,kBAAkB,EAAE,QAAQ,EAAE,CAAC"}
