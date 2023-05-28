@@ -1,1 +1,1 @@
-{"version":3,"file":"team.d.ts","sourceRoot":"","sources":["../../../../src/common/sequelize/models/team.ts"],"names":[],"mappings":"AACA,OAAO,EAAa,SAAS,EAAE,MAAM,WAAW,CAAC;AAIjD,QAAA,MAAM,YAAY,cAAe,SAAS,6IAOzC,CAAC;AAEF,eAAe,YAAY,CAAC"}
+{"version":3,"file":"team.d.ts","sourceRoot":"","sources":["../../../../src/common/sequelize/models/team.ts"],"names":[],"mappings":"AAKA,QAAA,MAAM,YAAY,gJAOjB,CAAC;AAEF,eAAe,YAAY,CAAC"}

@@ -1,7 +1,6 @@
-import { Sequelize } from "sequelize";
-declare const database: string;
+declare const database: any;
 declare const getMysqlConnection: (newConnection?: boolean, withDatabase?: boolean) => {
-    dbConnection: Sequelize;
+    dbConnection: any;
     models: import("./models/config").Models;
 };
 export { getMysqlConnection, database };

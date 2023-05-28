@@ -1,4 +1,3 @@
-import { Sequelize } from "sequelize";
 import { Models } from "./config";
 declare enum eAssociationKeys {
     teams = "teams",
