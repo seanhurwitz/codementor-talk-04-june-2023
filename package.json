@@ -1,0 +1,21 @@
+{
+  "name": "codementor-talk-04-june-2023",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-tsc": "rimraf dist && tsc --watch",
+    "bootstrap": "ts-node -r tsconfig-paths/register src/scripts/bootstrap.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^3.3.3",
+    "rimraf": "^5.0.1",
+    "sequelize": "^6.31.1",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.0.4"
+  }
+}
