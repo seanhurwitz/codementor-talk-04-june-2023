@@ -1,3 +1,6 @@
+import { Model } from "sequelize";
+import { PaginationData, SearchInput } from "./common";
+
 enum eTeamRegion {
   NORTH = "NORTH",
   SOUTH = "SOUTH",
@@ -14,4 +17,22 @@ interface TeamAttributes extends TeamCreationAttributes {
   id: number;
 }
 
-export { eTeamRegion, TeamCreationAttributes, TeamAttributes };
+interface TeamQueryInput {
+  name?: string;
+  region?: string;
+}
+
+type TeamSearchInput = SearchInput<TeamQueryInput>;
+type TeamPaginationData = PaginationData<TeamModel>;
+
+type TeamModel = Model<TeamAttributes, TeamCreationAttributes>;
+
+export {
+  eTeamRegion,
+  TeamCreationAttributes,
+  TeamAttributes,
+  TeamModel,
+  TeamQueryInput,
+  TeamSearchInput,
+  TeamPaginationData,
+};

@@ -9,4 +9,4 @@ const bootstrap = async () => {
   console.log("Created Database With all Tables and Associations!");
 };
 
-bootstrap();
+export default bootstrap;
